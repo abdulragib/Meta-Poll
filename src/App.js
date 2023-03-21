@@ -2,7 +2,7 @@ import './App.css';
 import Admin from './Components/Admin/Admin';
 import Home from './Components/Home/Home';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ActiveCampaign from './Components/CheckProgress-ActiveCampaign/ActiveCampaign';
+import CreateCampaign from './Components/Admin-CreateCampaign/CreateCampaign';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
-          <Route path="/admin/active-campaign" element={<ActiveCampaign/>}/>
+          <Route path="/admin/create-campaign" element={<CreateCampaign/>}/>
         </Routes>
       </BrowserRouter>
   );

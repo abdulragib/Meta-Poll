@@ -5,7 +5,7 @@ import './Admin.css'
 const Admin = () => {
   const Navigate=useNavigate();
   const handleClick = () =>{
-    Navigate('/admin/active-campaign')
+    Navigate('/admin/create-campaign')
   }
   return (
     <div className="admin">
