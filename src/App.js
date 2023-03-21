@@ -8,9 +8,9 @@ function App() {
   return (
       <BrowserRouter className="App">
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
-          <Route index path="/admin/active-campaign" element={<ActiveCampaign/>}/>
+          <Route path="/admin/active-campaign" element={<ActiveCampaign/>}/>
         </Routes>
       </BrowserRouter>
   );
