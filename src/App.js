@@ -6,7 +6,7 @@ import ActiveCampaign from './Components/CheckProgress-ActiveCampaign/ActiveCamp
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter className="App">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/admin" element={<Admin />} />
