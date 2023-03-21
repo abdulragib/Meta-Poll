@@ -1,6 +1,6 @@
-::root{
-  --sideBar:"#D9D9D9";
-  --buttonColor:"#918282";
+:root{
+  --sideBar:#D9D9D9;
+  --buttonColor:#918282;
 }
 
 ::-webkit-scrollbar{
@@ -12,4 +12,29 @@
   flex-direction: column;
   gap: 6rem;
   overflow: hidden;
+}
+
+.left{
+  background-color: var(--sideBar);
+  flex:1;
+  width:3rem;
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  padding-top:1rem;
+}
+
+.btn{
+  width:8rem;
+  color:white;
+  height:2.5rem;
+  background-color: var(--buttonColor);
+  padding:0.5rem;
+  font-weight: bold;
+  border:4px solid transparent;
+  transition: 300ms all;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
 }
