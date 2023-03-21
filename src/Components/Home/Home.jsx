@@ -1,11 +1,16 @@
 import React from 'react'
+import {useNavigate} from 'react-router-dom'
 import './Home.css';
 
 const Home = () => {
+  const Navigate=useNavigate();
+  const handleClick=()=>{
+    Navigate('/admin')
+  }
   return (
-    <div className="Home">
+    <div className="home">
        <div className='left'>
-        <button className="btn">
+        <button className="btn" onClick={handleClick}>
             CONNECT WALLET
         </button>
         </div>

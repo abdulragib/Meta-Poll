@@ -1,10 +1,5 @@
-.Home {
+.home {
   display: flex;
-}
-
-.home-Title{
-  font-size:4rem;
-  text-transform: uppercase;
 }
 
 .right-h {
