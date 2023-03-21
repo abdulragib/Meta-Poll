@@ -8,7 +8,7 @@ function App() {
   return (
       <BrowserRouter className="App">
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/Meta-Poll" element={<Home />} />
           <Route exact path="/admin" element={<Admin />} />
           <Route exact path="/admin/create-campaign" element={<CreateCampaign/>}/>
         </Routes>
