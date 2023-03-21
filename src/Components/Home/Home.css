@@ -1,8 +1,23 @@
-.Home{
-    display:flex;
+.Home {
+  display: flex;
 }
 
+.home-Title{
+  font-size:4rem;
+  text-transform: uppercase;
+}
 
-.right-h{
-   flex:6;
+.right-h {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/hands.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.right-h:nth-child(2){
+  text-align: center;
 }
