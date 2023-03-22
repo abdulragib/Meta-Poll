@@ -9,7 +9,7 @@ const CheckProgress = () => {
   };
 
   const handleClickOne = () => {
-    Navigate("/admin/check-progress/Ended-campaign");
+    Navigate("/admin/check-progress/ended-campaign");
   };
   return (
     <div className="check-progress">

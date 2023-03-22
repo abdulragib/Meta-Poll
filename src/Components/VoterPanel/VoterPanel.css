@@ -1,0 +1,44 @@
+.check-progress{
+    display:flex;
+}
+
+.right-vp{
+  flex:6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/hands.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.right-vp > .right-vp-btn-group{
+    display:flex;
+    justify-content: space-between;
+    margin-top: -2rem;
+    width:38rem;
+}
+
+.right-vp > .right-vp-btn-group > .btn-right{
+    width: 15rem;
+    height:2.5rem;
+    text-transform: uppercase;
+    margin:0.5rem;
+}
+
+.right-vp-data-container{
+    display:flex;
+    justify-content: space-between;
+    gap:7rem;
+}
+
+.right-vp-data-container-item{
+    display:flex;
+    background-color: var(--sideBar);
+    width:14rem;
+    height:2rem;
+    padding-right:1rem;
+    border-radius:10px;
+    margin-top:0.5rem;
+}
