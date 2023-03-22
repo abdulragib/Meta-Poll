@@ -13,10 +13,6 @@
   background-position: center center;
 }
 
-.right-cp{
-    margin-top:-2.5rem;
-}
-
 .right-cp > .right-cp-btn-group{
     display:flex;
     justify-content: space-between;
