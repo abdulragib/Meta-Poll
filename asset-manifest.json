@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Meta-Poll/static/css/main.602432ef.css",
-    "main.js": "/Meta-Poll/static/js/main.749d95b2.js",
+    "main.css": "/Meta-Poll/static/css/main.8d31e52e.css",
+    "main.js": "/Meta-Poll/static/js/main.984c4371.js",
     "static/media/hands.jpg": "/Meta-Poll/static/media/hands.9cdc5d110c7827e1cbdd.jpg",
     "index.html": "/Meta-Poll/index.html",
-    "main.602432ef.css.map": "/Meta-Poll/static/css/main.602432ef.css.map",
-    "main.749d95b2.js.map": "/Meta-Poll/static/js/main.749d95b2.js.map"
+    "main.8d31e52e.css.map": "/Meta-Poll/static/css/main.8d31e52e.css.map",
+    "main.984c4371.js.map": "/Meta-Poll/static/js/main.984c4371.js.map"
   },
   "entrypoints": [
-    "static/css/main.602432ef.css",
-    "static/js/main.749d95b2.js"
+    "static/css/main.8d31e52e.css",
+    "static/js/main.984c4371.js"
   ]
 }
