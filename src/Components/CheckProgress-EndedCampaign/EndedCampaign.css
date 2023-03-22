@@ -2,8 +2,10 @@
     display:flex;
 }
 
-.home-Title{
+.ec-Title{
     margin-top:-0.2rem;
+    font-size:4rem;
+    text-transform: uppercase;
 }
 
 .home-Title-description{
