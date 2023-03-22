@@ -6,6 +6,10 @@
     margin-top:-0.2rem;
 }
 
+.home-Title-description{
+    padding-bottom:1.5rem;
+}
+
 .right-ec{
   flex:6;
   display: flex;
@@ -84,6 +88,5 @@
     height:2.4rem;
     background-color: var(--sideBar);
     border-radius: 0.5rem;
-    
 }
 
