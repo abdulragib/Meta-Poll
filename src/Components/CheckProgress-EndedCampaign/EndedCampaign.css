@@ -1,0 +1,25 @@
+.ended-campaign{
+    display:flex;
+}
+
+.right-ec{
+  flex:6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/hands.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.right-ec > .btn-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height:1rem;
+    text-transform: uppercase;
+    margin:0.5rem;
+}
