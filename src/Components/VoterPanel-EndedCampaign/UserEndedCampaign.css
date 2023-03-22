@@ -1,0 +1,61 @@
+.user-ended-campaign{
+    display:flex;
+}
+
+.right-uec{
+  flex:6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/hands.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.right-uec > .btn-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height:2.5rem;
+    text-transform: uppercase;
+    margin:0.5rem;
+}
+
+.right-uec>:nth-child(2){
+    margin-top:-1.7rem;
+}
+
+
+.right-uec-part-two{
+    display:flex;
+    gap:1.5rem;
+  }
+
+  .right-uec-part-two-btn-group{
+    display:flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
+
+.right-uec-part-two-btn-group > div{
+    height:1rem;
+}
+
+.right-uec-data-container-two{
+    display:flex;
+    gap:0.6rem;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+  }
+  
+  .right-uec-data-container-item-two{
+      width:14.9rem;
+      height:2.4rem;
+      background-color: var(--sideBar);
+      border-radius: 0.5rem;
+  }
