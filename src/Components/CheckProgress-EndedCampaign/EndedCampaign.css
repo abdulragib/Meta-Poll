@@ -2,6 +2,10 @@
     display:flex;
 }
 
+.home-Title{
+    margin-top:-1rem;
+}
+
 .right-ec{
   flex:6;
   display: flex;
@@ -13,13 +17,73 @@
   background-position: center center;
 }
 
-.right-ec > .btn-right{
+ .btn-right{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 12rem;
-    height:1rem;
+    height:2rem;
     text-transform: uppercase;
     margin:0.5rem;
 }
+
+.right-ec-data{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width:50rem;
+    margin-top:-2rem;
+    gap:2rem;
+}
+
+.right-ec-btn-group{
+  display:flex;
+}
+
+.right-ec-part-two{
+  display:flex;
+  gap:1.5rem;
+}
+
+.right-ec-data-container-one{
+  display:flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  gap:0.7rem;
+}
+
+.right-ec-data-container-item-one{
+    width:11.9rem;
+    height:10rem;
+    background-color: var(--sideBar);
+    border-radius: 0.5rem;
+}
+
+.right-ec-part-two-btn-group{
+    display:flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+}
+
+.right-ec-part-two-btn-group > div{
+    height:1rem;
+}
+
+.right-ec-data-container-two{
+  display:flex;
+  gap:0.6rem;
+  flex-direction: column;
+  align-items: space-evenly;
+  justify-content: space-evenly;
+}
+
+.right-ec-data-container-item-two{
+    width:11.9rem;
+    height:2.4rem;
+    background-color: var(--sideBar);
+    border-radius: 0.5rem;
+    
+}
+
