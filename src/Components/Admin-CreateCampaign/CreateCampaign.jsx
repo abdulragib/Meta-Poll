@@ -2,6 +2,7 @@ import React from "react";
 import "./CreateCampaign.css";
 
 const CreateCampaign = () => {
+ 
   return (
     <div className="create-campaign">
       <div className="left">

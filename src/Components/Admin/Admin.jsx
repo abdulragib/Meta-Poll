@@ -7,6 +7,10 @@ const Admin = () => {
   const handleClick = () =>{
     Navigate('/admin/create-campaign')
   }
+
+  const handleClickTwo=()=>{
+    Navigate("/admin/check-progress")
+  }
   return (
     <div className="admin">
        <div className='left'>
@@ -17,7 +21,7 @@ const Admin = () => {
        <div className='right-a'>
         <h1 className="home-Title">MetaPoll</h1>
         <button className='btn btn-right' onClick={handleClick}>Create Campaign</button>
-        <button className='btn btn-right'>Check Progress</button>
+        <button className='btn btn-right' onClick={handleClickTwo}>Check Progress</button>
        </div>
     </div>
   )
