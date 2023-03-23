@@ -1,0 +1,69 @@
+.ongoing-campaign{
+    display:flex;
+}
+
+.right-oc{
+  flex:6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../../assets/hands.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top top;
+  margin-top:-3.5rem;
+}
+
+.right-oc-name{
+    margin-top:-3rem;
+}
+
+
+.right-oc-data{
+    display: flex;
+    justify-content: space-between;
+    width:19rem;
+}
+
+.right-oc > .btn-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    height:2.5rem;
+    text-transform: uppercase;
+    margin:0.5rem;
+}
+
+.right-oc-left{
+    display:flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;
+    gap:0.4rem;
+}
+
+.right-oc-right{
+    display:flex;
+    flex-direction: column;
+    align-items: space-evenly;
+    justify-content: center;
+    width: 3rem;
+    gap:1.4rem;
+}
+
+.right-oc-right-item{
+    width:2rem;
+    height:2rem;
+    border-radius: 10%;
+    background-color: var(--sideBar);
+}
+
+
+.right-oc-vote{
+   height:2rem;
+   margin-top:1.5rem;
+   margin-left:5rem;
+}
+
