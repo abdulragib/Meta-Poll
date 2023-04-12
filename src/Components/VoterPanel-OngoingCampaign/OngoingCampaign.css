@@ -50,7 +50,7 @@
     align-items: space-evenly;
     justify-content: center;
     width: 3rem;
-    gap:1.4rem;
+    gap:1rem;
 }
 
 .right-oc-right-item{
@@ -58,6 +58,8 @@
     height:2rem;
     border-radius: 10%;
     background-color: var(--sideBar);
+    border:none;
+   
 }
 
 

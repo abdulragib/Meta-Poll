@@ -90,5 +90,7 @@
     height:2.4rem;
     background-color: var(--sideBar);
     border-radius: 0.5rem;
+    border:none;
+    padding-left:0.5rem;
 }
 

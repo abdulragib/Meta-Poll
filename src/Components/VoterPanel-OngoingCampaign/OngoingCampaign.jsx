@@ -17,10 +17,10 @@ const OngoingCampaign = () => {
               <button className="btn btn-right">Candidate 4</button>
           </div>
           <div className="right-oc-right">
-            <div className="right-oc-right-item"></div>
-            <div className="right-oc-right-item"></div>
-            <div className="right-oc-right-item"></div>
-            <div className="right-oc-right-item"></div>
+            <input type='checkbox' className="right-oc-right-item"></input>
+            <input type='checkbox' className="right-oc-right-item"></input>
+            <input type='checkbox' className="right-oc-right-item"></input>
+            <input type='checkbox' className="right-oc-right-item"></input>
           </div>
         </div>
         <button className="btn right-oc-vote">Vote</button>

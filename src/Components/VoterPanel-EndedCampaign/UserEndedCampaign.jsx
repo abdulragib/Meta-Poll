@@ -19,8 +19,8 @@ const UserEndedCampaign = () => {
             </div>
             <div className="right-uec-data-container-two">
               <div className="right-uec-data-container-item-two"></div>
-              <div className="right-uec-data-container-item-two"></div>
-              <div className="right-uec-data-container-item-two"></div>
+              <div  className="right-uec-data-container-item-two"></div>
+              <div  className="right-uec-data-container-item-two"></div>
             </div>
           </div>
       </div>
