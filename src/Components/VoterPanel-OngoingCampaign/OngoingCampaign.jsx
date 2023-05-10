@@ -13,7 +13,7 @@ const OngoingCampaign = () => {
       </div>
       <div className="right-oc">
         <h1 className="home-Title">MetaPoll</h1>
-        <h2 className="right-oc-name">CR NOMINATION D2007</h2>
+        <h2 className="right-oc-name">CR NOMINATION D2001</h2>
         <div className="right-oc-data">
           <div className="right-oc-left">
             <button className="btn btn-right">Candidate 1</button>

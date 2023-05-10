@@ -54,6 +54,11 @@
   }
   
   .right-uec-data-container-item-two{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      font-weight: 500;
       width:14.9rem;
       height:2.4rem;
       background-color: var(--sideBar);

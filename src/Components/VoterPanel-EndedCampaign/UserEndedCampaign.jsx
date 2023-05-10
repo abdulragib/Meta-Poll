@@ -9,7 +9,7 @@ const UserEndedCampaign = () => {
       </div>
       <div className="right-uec">
         <h1 className="home-Title">MetaPoll</h1>
-        <h2 className='home-Title-Description'>Name</h2>
+        <h2 className='home-Title-Description'>CR NOMINATION D2007</h2>
          {/* Data container two */}
       <div className="right-uec-part-two">
             <div className="right-uec-part-two-btn-group">
@@ -18,9 +18,9 @@ const UserEndedCampaign = () => {
               <div className="btn btn-right">END DATE</div>
             </div>
             <div className="right-uec-data-container-two">
-              <div className="right-uec-data-container-item-two"></div>
-              <div  className="right-uec-data-container-item-two"></div>
-              <div  className="right-uec-data-container-item-two"></div>
+              <div className="right-uec-data-container-item-two">66</div>
+              <div className="right-uec-data-container-item-two">Harshit Massand</div>
+              <div className="right-uec-data-container-item-two">5th May</div>
             </div>
           </div>
       </div>
