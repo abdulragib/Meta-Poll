@@ -19,8 +19,8 @@ const ActiveCampaign = () => {
             <button className='btn btn-right'>Ending Time</button>
         </div>
         <div className="right-ac-data-container">
-            <div className='right-ac-data-container-item'></div>
-            <div className='right-ac-data-container-item'></div>
+            <div className='right-ac-data-container-item'>500</div>
+            <div className='right-ac-data-container-item'>13 May 2023</div>
         </div>
         </div>
        </div>

@@ -44,10 +44,14 @@
 }
 
 .right-ac-data-container-item{
+    display:flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--sideBar);
-    width:6rem;
+    width:10rem;
     height:2.5rem;
     padding-right:1rem;
     border-radius:10px;
     margin-top:0.5rem;
+    font-weight: 500;
 }
