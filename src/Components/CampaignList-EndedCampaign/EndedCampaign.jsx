@@ -18,8 +18,20 @@ const EndedCampaign = () => {
               <button className="btn btn-right">NUMBER OF VOTES</button>
             </div>
             <div className="right-ec-data-container-one">
-              <div className="right-ec-data-container-item-one"></div>
-              <div className="right-ec-data-container-item-one"></div>
+              <div className="right-ec-data-container-item-one">
+                 <div>1. Isha</div>
+                 <div>2. Simran</div>
+                 <div>3. Jayant</div>
+                 <div>4. Radhika</div>
+                 <div>5. Abdul Ragib</div>
+              </div>
+              <div className="right-ec-data-container-item-one two">
+                <div>1100</div>
+                <div>900</div>
+                <div>1500</div>
+                <div>700</div>
+                <div>800</div>
+              </div>
             </div>
           </div>
 
@@ -31,9 +43,16 @@ const EndedCampaign = () => {
               <div className="btn btn-right">END DATE</div>
             </div>
             <div className="right-ec-data-container-two">
-              <div className="right-ec-data-container-item-two"></div>
-              <div className="right-ec-data-container-item-two"></div>
-              <div className="right-ec-data-container-item-two"></div>
+              <div className="right-ec-data-container-item-two">
+                 5000
+              </div>
+
+              <div className="right-ec-data-container-item-two">
+                 Jayant
+              </div>
+              <div className="right-ec-data-container-item-two">
+                  15 Dec 2021
+              </div>
             </div>
           </div>
         </div>

@@ -60,10 +60,24 @@
 }
 
 .right-ec-data-container-item-one{
-    width:11.9rem;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap:0.5rem;
+  font-weight: 500;
+  padding-left:2rem;
+    width:9.9rem;
     height:10rem;
     background-color: var(--sideBar);
     border-radius: 0.5rem;
+}
+
+.two{
+  padding-left: 0rem;
+  justify-content: center;
+  align-items: center;
+  width:11.9rem;
 }
 
 .right-ec-part-two-btn-group{
@@ -86,6 +100,10 @@
 }
 
 .right-ec-data-container-item-two{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
     width:11.9rem;
     height:2.4rem;
     background-color: var(--sideBar);
