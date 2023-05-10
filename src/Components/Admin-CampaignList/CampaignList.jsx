@@ -1,18 +1,18 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./CheckProgress.css";
+import "./CampaignList.css";
 
 const CheckProgress = () => {
   const Navigate = useNavigate();
   const handleClick = () => {
-    Navigate("/admin/check-progress/active-campaign");
+    Navigate("/admin/campaign-list/active-campaign");
   };
 
   const handleClickOne = () => {
-    Navigate("/admin/check-progress/ended-campaign");
+    Navigate("/admin/campaign-list/ended-campaign");
   };
   return (
-    <div className="check-progress">
+    <div className="campaign-list">
       <div className="left">
         <button className="btn">WALLET ADDRESS</button>
       </div>
@@ -28,15 +28,15 @@ const CheckProgress = () => {
         </div>
         <div className="right-cp-data-container">
           <div className="right-cp-data-container-one">
-            <div className="right-cp-data-container-item"></div>
-            <div className="right-cp-data-container-item"></div>
-            <div className="right-cp-data-container-item"></div>
+            <div className="right-cp-data-container-item">CR NOMINATION</div>
+            <div className="right-cp-data-container-item">CLUB PRESIDENT</div>
+            <div className="right-cp-data-container-item">SCHOOL MONITOR</div>
           </div>
 
           <div className="right-cp-data-container-two">
-            <div className="right-cp-data-container-item"></div>
-            <div className="right-cp-data-container-item"></div>
-            <div className="right-cp-data-container-item"></div>
+            <div className="right-cp-data-container-item">............</div>
+            <div className="right-cp-data-container-item">............</div>
+            <div className="right-cp-data-container-item">............</div>
           </div>
         </div>
       </div>

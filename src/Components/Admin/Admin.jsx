@@ -9,7 +9,7 @@ const Admin = () => {
   };
 
   const handleClickTwo = () => {
-    Navigate("/admin/check-progress");
+    Navigate("/admin/campaign-list");
   };
   return (
     <div className="admin">
@@ -22,7 +22,7 @@ const Admin = () => {
           Create Campaign
         </button>
         <button className="btn btn-right" onClick={handleClickTwo}>
-          Check Progress
+          Campaign List
         </button>
       </div>
     </div>
