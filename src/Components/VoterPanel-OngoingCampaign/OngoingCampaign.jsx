@@ -16,10 +16,10 @@ const OngoingCampaign = () => {
         <h2 className="right-oc-name">CR NOMINATION D2001</h2>
         <div className="right-oc-data">
           <div className="right-oc-left">
-            <button className="btn btn-right">Candidate 1</button>
-            <button className="btn btn-right">Candidate 2</button>
-            <button className="btn btn-right">Candidate 3</button>
-            <button className="btn btn-right">Candidate 4</button>
+            <button className="btn btn-right">Rahul Kumar</button>
+            <button className="btn btn-right">Vidhan Chandra</button>
+            <button className="btn btn-right">Gaurav Kumar</button>
+            <button className="btn btn-right">Samrat Mandal</button>
           </div>
           <div className="right-oc-right">
             <input

@@ -9,7 +9,7 @@ const EndedCampaign = () => {
       </div>
       <div className="right-ec">
         <h1 className="ec-Title">MetaPoll</h1>
-        <h2 className="home-Title-description">NAME</h2>
+        <h2 className="home-Title-description">CR NOMINATION D2001</h2>
         <div className="right-ec-data">
           {/* Data container one */}
           <div className="right-ec-part-one">

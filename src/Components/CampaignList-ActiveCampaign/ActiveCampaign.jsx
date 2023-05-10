@@ -12,7 +12,7 @@ const ActiveCampaign = () => {
         </div>
        <div className='right-ac'>
         <h1 className="home-Title">MetaPoll</h1>
-        <h2 className="home-Title-description">NAME</h2>
+        <h2 className="home-Title-description">CR NOMINATION D2001</h2>
         <div className='right-ac-data'>
         <div className='right-ac-data-btn-group'>
             <button className='btn btn-right'>Total Votes</button>
