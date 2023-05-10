@@ -19,22 +19,22 @@ const CheckProgress = () => {
       <div className="right-cp">
         <h1 className="home-Title">MetaPoll</h1>
         <div className="right-cp-btn-group">
-          <button className="btn btn-right" onClick={handleClick}>
+          <button className="btn btn-right" >
             Active Campaign
           </button>
-          <button className="btn btn-right" onClick={handleClickOne}>
+          <button className="btn btn-right">
             Ended Campaign
           </button>
         </div>
         <div className="right-cp-data-container">
           <div className="right-cp-data-container-one">
-            <div className="right-cp-data-container-item">CR NOMINATION</div>
+            <div className="right-cp-data-container-item" onClick={handleClick}>CR NOMINATION</div>
             <div className="right-cp-data-container-item">CLUB PRESIDENT</div>
             <div className="right-cp-data-container-item">SCHOOL MONITOR</div>
           </div>
 
           <div className="right-cp-data-container-two">
-            <div className="right-cp-data-container-item">............</div>
+            <div className="right-cp-data-container-item" onClick={handleClickOne}>CR NOMINATION</div>
             <div className="right-cp-data-container-item">............</div>
             <div className="right-cp-data-container-item">............</div>
           </div>

@@ -35,6 +35,7 @@
 
 .right-cp-data-container-item{
     display:flex;
+    cursor: pointer;
     justify-content: center;
     align-items: center;
     background-color: var(--sideBar);
