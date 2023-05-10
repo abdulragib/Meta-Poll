@@ -19,22 +19,22 @@ const VoterPanel = () => {
       <div className="right-vp">
         <h1 className="home-Title">MetaPoll</h1>
         <div className="right-vp-btn-group">
-          <button className="btn btn-right" onClick={handleClick}>
+          <button className="btn btn-right" >
            Ongoing Campaign
           </button>
-          <button className="btn btn-right" onClick={handleClickOne}>
+          <button className="btn btn-right" >
             Ended Campaign
           </button>
         </div>
         <div className="right-vp-data-container">
           <div className="right-vp-data-container-one">
-            <div className="right-vp-data-container-item">CR NOMINATION</div>
+            <div className="right-vp-data-container-item" onClick={handleClick}>CR NOMINATION</div>
             <div className="right-vp-data-container-item">CLUB PRESIDENT</div>
             <div className="right-vp-data-container-item">SCHOOL MONITOR</div>
           </div>
 
           <div className="right-vp-data-container-two">
-            <div className="right-vp-data-container-item">..........</div>
+            <div className="right-vp-data-container-item" onClick={handleClickOne}>CR NOMINATION</div>
             <div className="right-vp-data-container-item">..........</div>
             <div className="right-vp-data-container-item">..........</div>
           </div>
