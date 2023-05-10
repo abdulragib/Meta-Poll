@@ -35,9 +35,13 @@
 
 .right-vp-data-container-item{
     display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
     background-color: var(--sideBar);
     width:14rem;
-    height:2rem;
+    height:2.5rem;
     padding-right:1rem;
     border-radius:10px;
     margin-top:0.5rem;
