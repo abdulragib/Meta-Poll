@@ -11,7 +11,7 @@ const CreateCampaign = () => {
       <div className="right-cc">
         <h1 className="home-Title right-home-title">MetaPoll</h1>
         <div className="right-cc-btn-group">
-          <button className="btn btn-right">Create Campaign</button>
+          <button className="btn btn-right">Candidate List</button>
           <button className="btn btn-right">Voter List</button>
           <button className="btn btn-right">Election Details</button>
         </div>
